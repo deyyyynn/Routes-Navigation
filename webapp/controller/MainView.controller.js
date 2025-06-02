@@ -13,10 +13,6 @@ function (Controller, MessageToast) {
         },
 
         onAddItem: function () {
-            var oTextBundle = this.getOwnerComponent().getModel("i18n").getResourceBundle();
-            var sMsg = oTextBundle.getText("addButtonMsg");
-            this.fnDisplayMsg(sMsg);
-
             // Comment this code for now
             // var oTextBundle = this.getOwnerComponent().getModel("i18n").getResourceBundle();
             // var sMsg = oTextBundle.getText("addButtonMsg");
